@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" 
+        content="IE=edge">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.0/mapbox-gl.css' rel='stylesheet' />
+        <title>Development in Technology</title>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+        <div class="container">
+             <a href="#" class="navbar-brand ">
+                <h1>
+                    Dalton Nesmith
+                </h1>
+            </a>
+             <button 
+             class="navbar-toggler" 
+             type="button" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#navmenu">
+            
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+             <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#aboutme" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Projects" class="nav-link">Current Projects</a>
+                    </li><li class="nav-item">
+                        <a href="#Contact" class="nav-link">Contact me</a>
+                    </li>
+                    </li><li class="nav-item">
+                        <a href="#map" class="nav-link">Map</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </nav>
+
+    <!--ShowCase-->
+
+    <section class="bg-dark text-light p-5 p-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center ustify-content-between">
+                <div>
+                    <h1><span class ="text-warning text-center">
+                        My Transition from the
+                    </span> 
+                        <span class="text-danger">
+                        Military 
+                        <span class="text-light">
+                            to
+                        </span> 
+                        <span class="text-primary">
+                            Technology
+                        </span> 
+                    </span></h1>
+                    <p class="lead my-5">
+                        Transitioning Active-duty Officer with eight honorable years of service. 
+                        Seeking a new career in the Information Technology world.  
+                        I am currently a fellow in the Microsoft Software and Systems 	
+                        Academy and building my skills in C#, JavaScript, HTML, and CSS. 
+                    </p>
+                    <button onclick="window.location.href='https://www.linkedin.com/in/dalton-mcbride-nesmith/'" target="_blank" class="btn btn-primary btn-lg bi bi-linkedin">
+                        LinkedIn
+                    </button>
+                            <button onclick="window.location.href='https://github.com/daltonnesmith'" class="btn btn-secondary btn-lg lg-flex bi bi-github">
+                                GitHub
+                            </button>
+                    </div>
+                <img class="image-fluid w-50 d-none d-sm-block" src="img/undraw_programming_re_kg9v.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Boxes-->
+        <section id="Projects" class="p-5 bg-dark">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-md">
+                        <div class="card bg-white text-dark">  
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div> 
+                            <h3 class="card-title">
+                                Project 1
+                            </h3>
+                            <p class="card-text">
+                                Name Of Project
+                            </p>
+                            <a href="#" class="btn btn-white">Link</a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-secondary text-light">  
+                            <div class="h1 mb-3">
+                                <i class="bi bi-terminal"></i>
+                            </div> 
+                            <h3 class="card-title">
+                                Project 2
+                            </h3>
+                            <p class="card-text">
+                                Name Of Project
+                            </p>
+                            <a href="#" class="btn btn-secondary">Link</a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-primary text-light">  
+                            <div class="h1 mb-3">
+                                <i class="bi bi-code"></i>
+                            </div> 
+                            <h3 class="card-title">
+                                Project 3
+                            </h3>
+                            <p class="card-text">
+                                Name Of Project
+                            </p>
+                            <a href="#" class="btn btn-primary">Link</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Learning Journey Section-->
+        <section id="learn" class="p-5 bg-white text-dark">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/undraw_pair_programming_re_or4x.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>My Learning Journey</h2>
+                        <p class="lead">
+                            <h4>
+                                On March 7th, 2022 I started my journey with the Microsoft Software & Systems Academy the skills necessary to become a <span class="text-danger">Software Developer!</span>
+                            </h4>
+                            </p>
+                        <p>
+                            <b4>
+                                Click here to find out more about the program.
+                            </b4>
+                            <div class="bi button" onclick="window.location.href='https://military.microsoft.com/programs/microsoft-software-systems-academy/#pivot-select-your-learning-path'">
+                                <a href="#" class="btn btn-primary btn-md mt-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-microsoft" viewBox="0 0 16 16">
+                                        <path d="M7.462 0H0v7.19h7.462V0zM16 0H8.538v7.19H16V0zM7.462 8.211H0V16h7.462V8.211zm8.538 0H8.538V16H16V8.211z"/>
+                                      </svg>
+                                    <i></i> Microsoft Software & Systems Academy
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Use Accordion for About me-->
+        <section id="aboutme" class="bg-white">
+            <div class="container">
+                <h2 class="text-center mb-4">
+                    Frequently asked Questions.
+                </h2>
+                <div class="accordion accordion-flush" id="questions">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          When are you available to start work?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                        <div class="accordion-body"> I will be available to start work after 20 July 2022!</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Why go into Software Development?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Technology has always been a huge passion in my life.  
+                            Nothing brings me more excitement and joy then learning new things about new technology.  
+                            it's not just the creative problem solving and a chance to build something incredible, but also the culture around technology and the people that pursue it! 
+                            I hope to become apart of a new culture and build a brand new career following a passion. </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Are you willing to move?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">I am absolutely always ready for a new adventure.  
+                            Location is extremely important to me and my family but opportunity is always number one. </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!--Contact Section-->
+        <section id="Contact" class="p-1 text-center bg-dark">
+            <div class="container">
+                <div class="row">
+                <hw class="col-xs-6">Contact:</hw>
+                <!--Calls Modals-->
+                <div style="float:left; width:50%;" >
+                    <p data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#"><i class="bi bi-phone text-light mx-1 "></i></a>
+                    </p>
+                </div>
+                <div style="float:left; width:50%" >
+                    <p data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <a href="#"><i class="bi bi-envelope text-light mx-1"></i></a>
+                    </p>
+                </div>
+                <!--End Modals Caller-->
+                    <p class="text-light text-center">
+                        Over eight years experience as a U.S. Army Officer. I am a Leader, Professional, and have a Growth Mindset.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-12">
+                        <div class="card bg-dark">
+                            <div class="card-body text-center">
+                                <img src="img/87342790.jpg" class="rounded-circle mb-2" width="150" height="150" alt="">
+                                <p class="text-light">
+                                    Dalton M. Nesmith
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Maps BABY!!!-->
+        <section class="p-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <h2 class="text-center mb-4">
+                            Location
+                        </h2>
+                            <ul class="list-group list-group-flush lead">
+                                <li class="list-group-item">
+                                    <span class="fw-bold">
+                                        Location: 
+                                    </span>
+                                    Columbia, South Carolina
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md">
+                            <div id="map">
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous"
+        id="map">
+        </script>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.0/mapbox-gl.js'></script>
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoibGlvbmtpbmdzIiwiYSI6ImNsMXdxaHU1YjBsc2gzcHFwdmFydXA4eXEifQ.Uues6gMXwmjfzEgTVqhPvg';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [-81.0348144, 34.0007104],
+                zoom: 6
+            });
+        </script>
+<!--Arrow to Top-->
+        <footer class="p-5 bg-dark text-center text-white position-relative">
+            <div class="container">
+                <p>
+                    <a href="#" class="poistion-absolute bottom-0 end-0 p5">
+                        <i class=":bi bi-arrow-up-circle h1">
+                        </i>
+                    </a>
+                </p>
+            </div>
+    <!--Modal Play-->
+            <Section>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalLabel">Personal Cell</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                            (803) 201-5819
+                        </div>
+                        <div class="modal-footer">
+                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Modal 2-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Email</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center text-dark">
+                                dalton.m.nesmith1@outlook.com
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+    </body>
+</html>
